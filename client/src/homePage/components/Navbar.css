@@ -1,0 +1,40 @@
+.navbar {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center; /* căn giữa ngang */
+  align-items: center;     /* căn giữa dọc */
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  gap: 30px; /* khoảng cách giữa các mục */
+}
+
+.navbar-list li {
+  display: flex;
+  align-items: center;
+  color: #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 30px;
+  padding-left: 20px;
+  /* padding-right: ; */
+}
+
+.navbar-list li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 16px;
+  width: 1px;
+  background-color: #555;
+}
+
+.icon {
+  margin-right: 6px;
+  font-size: 16px;
+}

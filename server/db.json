@@ -1,4 +1,19 @@
 {
-  "users": [],
-  "posts": []
+  "categories": [
+    { "id": 1, "name": "Áo thun", "status": "ACTIVE" },
+    { "id": 2, "name": "Quần jean", "status": "INACTIVE" },
+    { "id": 3, "name": "Giày thể thao", "status": "ACTIVE" },
+    { "id": 4, "name": "Phụ kiện", "status": "ACTIVE" },
+    { "id": 5, "name": "Áo khoác", "status": "INACTIVE" },
+    { "id": 6, "name": "Váy đầm", "status": "ACTIVE" },
+    { "id": 7, "name": "Đồ lót", "status": "ACTIVE" },
+    { "id": 8, "name": "Đồ bơi", "status": "INACTIVE" },
+    { "id": 9, "name": "Trang phục công sở", "status": "ACTIVE" },
+    { "id": 10, "name": "Trang phục thể thao", "status": "ACTIVE" },
+    { "id": 11, "name": "Trang phục dạ hội", "status": "INACTIVE" },
+    { "id": 12, "name": "Trang phục truyền thống", "status": "ACTIVE" },
+    { "id": 13, "name": "Trang phục mùa đông", "status": "ACTIVE" },
+    { "id": 14, "name": "Trang phục mùa hè", "status": "INACTIVE" },
+    { "id": 15, "name": "Trang phục trẻ em", "status": "ACTIVE" }
+  ]
 }

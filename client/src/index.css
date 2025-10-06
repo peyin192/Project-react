@@ -1,11 +1,18 @@
 
 
-
-body {
+* {
   margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
+body {
+  background: #fff;
+  color: #111;
+}
 
-
-
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
